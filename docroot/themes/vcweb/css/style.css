@@ -1,0 +1,23 @@
+.path-frontpage .views-col {
+  float: left;
+  border-bottom: 1px solid #CCC;
+  padding: 20px 0px;
+  width: 100%;
+}
+
+.path-frontpage .views-field-title,
+.path-frontpage .views-field-body,
+.path-frontpage .views-field-field-service-status {
+  float: left;
+  width: 33%;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+@media only screen and (max-device-width: 568px) {
+  .path-frontpage .views-field-title,
+  .path-frontpage .views-field-body,
+  .path-frontpage .views-field-field-service-status {
+    font-size: 12px;
+  }
+}
